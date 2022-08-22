@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin:240px 150px;
+    border: solid 2px cyan;
+}
+
+header{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto
+
+}
+
+.left_text{
+    width: 278px;
+    height: 47px;
+}
+
+.part_one{
+    width: 117px;
+    height: 27px;
+}
+
+.part_two{
+    width: 439px;
+    height: 87px;
+}
+
+.row_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_label{
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
